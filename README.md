@@ -32,6 +32,8 @@ An optimized 1-bit State Machine manages the operational flow, integrated with p
 
 GEN (0): Active encoding of data.
 CHECK (1): Active auditing of MCU response.
+
+
 🚀 ASIC Design Flow
 The project was executed using the Cadence Digital Design Suite:
 
@@ -43,12 +45,16 @@ Placement: Optimized cell locations to minimize wire length.
 Clock Tree Synthesis (CTS): Synchronized internal flip-flops with minimal skew.
 Routing: Completed global and detailed routing of all signal nets.
 Signoff: Verified timing, area, and power reports.
+
 📊 Physical Design Details
+
 A unique feature of this ASIC is its Pad-Limited nature. To maintain a near-square aspect ratio, a custom pad distribution was calculated:
 
 3 Sides: 11 pads each (60μm spacing).
 1 Side: 12 pads (50μm spacing).
 Total Perimeter: Integrated 49 physical pads to allow real-world interfacing with external hardware.
+
+
 👥 Team Members (Team 9)
 Aardra S V
 G Mary Priya
