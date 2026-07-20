@@ -1,4 +1,6 @@
 ASIC for Microcontroller Memory Testing
+
+
 Hardware-Based Hamming (7,4) Error Correction Auditor
 This repository contains the design and implementation of an ASIC Auditor designed to monitor the data integrity of microcontrollers and memory systems in real-time. The project follows a complete industry-standard ASIC design flow using 180nm CMOS technology.
 
